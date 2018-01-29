@@ -37,11 +37,13 @@ def endGame(positions):
         return False
     return win
 
-
+#NN 9 inputs 8 neurons 1 output 
+# if the moves the player wants to do its iligal he will lose the turn
 positions = np.zeros(9)
-pesos = []
-#while endGame(positions) == False :
-#    positions = 0
+pesosO = [] #2 vectors uno from input to neuron another from enuron to output
+pesosX = [] #value of the wheigths [-5,5]
+while endGame(positions) == False :
+    positions = 0
 
 
 
